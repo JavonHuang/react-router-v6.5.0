@@ -1,0 +1,36 @@
+.portal{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  &-header{
+    display:flex;
+    height: 60px;
+    width: 100%;
+    background-color: #8194fa;
+  }
+  &-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    &-left{
+      background-color: #8194fa;
+      width: 200px;
+      border-top: 1px solid #e5e2e2;
+    }
+    &-context{
+      height: 100%;
+      width: 100%;
+      padding: 10px 20px;    
+      box-sizing: border-box;
+      background-color: #fff;
+      &>div:first-child{
+        background-color: #2ce9e9;
+        height: 100%;
+        width: 100%;
+        background-color: #eaeaea;
+        border-radius: 4px;
+      }
+    }
+  }
+}

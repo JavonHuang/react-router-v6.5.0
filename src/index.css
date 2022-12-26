@@ -1,0 +1,15 @@
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+#root{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.ka-wrapper,.ka-content{
+  height: 100%;
+  width: 100%;
+}
